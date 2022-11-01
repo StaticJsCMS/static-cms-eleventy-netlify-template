@@ -1,6 +1,6 @@
 ---
 links:
-  - title: Netlify CMS
+  - title: Static CMS
     url: "https://staticjscms.netlify.app/"
     desc: Open source content management for your Git workflow
   - title: Eleventy
