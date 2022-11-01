@@ -15,7 +15,7 @@ Bring to the table win-win survival strategies to ensure proactive domination. A
 
 ## h2 Heading
 
-### h3 Headingtest
+### h3 Heading
 
 #### h4 Heading
 
@@ -53,11 +53,7 @@ Unordered
 * Sub-lists are made by indenting 2 spaces:
     * Marker character change forces new list start:
         * Ac tristique libero volutpat at
-
-
         * Facilisis in pretium nisl aliquet
-
-
         * Nulla volutpat aliquam velit
 * Very easy!
 
