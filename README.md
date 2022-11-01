@@ -1,4 +1,4 @@
-# Neat Starter
+# Eleventy Starter
 
 Starter Template for Static CMS, Eleventy, Alpine JS & Tailwind CSS
 
