@@ -30,7 +30,7 @@
     "alpinejs": "^3.7.1",
     "browser-sync": "2.27.11",
     "cross-env": "7.0.3",
-    "cssnano": "5.1.14",
+    "cssnano": "5.1.15",
     "html-minifier": "4.0.0",
     "js-yaml": "4.1.0",
     "luxon": "2.5.2",
