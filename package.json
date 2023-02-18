@@ -12,23 +12,21 @@
     "netlify"
   ],
   "scripts": {
-    "start": "npm-run-all --parallel css eleventy browsersync",
-    "eleventy": "eleventy --watch",
+    "start": "npm-run-all --parallel css eleventy",
+    "eleventy": "eleventy --serve",
     "debug": "set DEBUG=* & eleventy",
     "css": "postcss src/static/css/tailwind.css --o _site/static/css/style.css --watch",
-    "build": "cross-env NODE_ENV=production eleventy && cross-env NODE_ENV=production tailwindcss -i src/static/css/tailwind.css -o _site/static/css/style.css",
-    "browsersync": "browser-sync start --server _site --files _site --port 8080 --no-notify --no-open"
+    "build": "cross-env NODE_ENV=production eleventy && cross-env NODE_ENV=production tailwindcss -i src/static/css/tailwind.css -o _site/static/css/style.css"
   },
   "dependencies": {
     "autoprefixer": "10.4.13",
     "postcss": "8.4.21"
   },
   "devDependencies": {
-    "@11ty/eleventy": "1.0.2",
-    "@11ty/eleventy-plugin-syntaxhighlight": "3.2.2",
-    "@tailwindcss/typography": "^0.5.0",
-    "alpinejs": "^3.7.1",
-    "browser-sync": "2.27.11",
+    "@11ty/eleventy": "2.0.0",
+    "@11ty/eleventy-plugin-syntaxhighlight": "4.2.0",
+    "@tailwindcss/typography": "^0.5.9",
+    "alpinejs": "^3.11.1",
     "cross-env": "7.0.3",
     "cssnano": "5.1.15",
     "html-minifier": "4.0.0",
