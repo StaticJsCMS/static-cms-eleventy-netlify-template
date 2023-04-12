@@ -24,7 +24,7 @@
   },
   "devDependencies": {
     "@11ty/eleventy": "2.0.0",
-    "@11ty/eleventy-plugin-syntaxhighlight": "4.2.0",
+    "@11ty/eleventy-plugin-syntaxhighlight": "5.0.0",
     "@tailwindcss/typography": "^0.5.9",
     "alpinejs": "^3.11.1",
     "cross-env": "7.0.3",
