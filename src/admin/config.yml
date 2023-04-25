@@ -7,7 +7,6 @@ backend:
   # repo: surjithctly/eleventy-starter
 media_folder: "src/static/img"
 public_folder: "/static/img"
-locale: fr
 
 # Please run "npx @staticcms/proxy-server" for local backend
 local_backend: true
@@ -23,7 +22,7 @@ collections:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Description", name: "description", widget: "string" }
       - { label: "Author", name: "author", widget: "string" }
-      - { label: "Publish Date", name: "date", widget: "datetime", format: 'YYYY-MM-dd' }
+      - { label: "Publish Date", name: "date", widget: "datetime" }
       - { label: "Body", name: "body", widget: "markdown" }
       - widget: select
         label: "tags"
