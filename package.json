@@ -19,7 +19,7 @@
     "build": "cross-env NODE_ENV=production eleventy && cross-env NODE_ENV=production tailwindcss -i src/static/css/tailwind.css -o _site/static/css/style.css"
   },
   "dependencies": {
-    "autoprefixer": "10.4.14",
+    "autoprefixer": "10.4.16",
     "postcss": "8.4.21"
   },
   "devDependencies": {
