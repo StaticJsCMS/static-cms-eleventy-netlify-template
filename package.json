@@ -28,7 +28,7 @@
     "@tailwindcss/typography": "^0.5.10",
     "alpinejs": "^3.11.1",
     "cross-env": "7.0.3",
-    "cssnano": "^5.1.15",
+    "cssnano": "^6.0.0",
     "html-minifier": "^4.0.0",
     "js-yaml": "^4.1.0",
     "luxon": "^3.3.0",
