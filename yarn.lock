@@ -233,9 +233,9 @@ acorn@^7.1.1:
   integrity sha512-nQyp0o1/mNdbTO1PO6kHkwSrmgZ0MT/jCCpNiwbUjGoRN4dlBhqJtoQuCnEOKzgTVwg0ZWiCoQy6SxMebQVh8A==
 
 alpinejs@^3.11.1:
-  version "3.13.2"
-  resolved "https://registry.yarnpkg.com/alpinejs/-/alpinejs-3.13.2.tgz#19723278b14bd9d1cc46859b5ac6225fcce2c228"
-  integrity sha512-WzojeeN082kLZznGI1HAuP8yFJSWqJ1fGdz2mUjj45H4y0XwToE7fFqtI3mCPRR+BpcSbxT/NL+FyPnYAWSltw==
+  version "3.13.7"
+  resolved "https://registry.yarnpkg.com/alpinejs/-/alpinejs-3.13.7.tgz#74ab35c69c33a0cf4c467a3339f4487ac846a04a"
+  integrity sha512-rcTyjTANbsePq1hb7eSekt3qjI94HLGeO6JaRjCssCVbIIc+qBrc7pO5S/+2JB6oojIibjM6FA+xRI3zhGPZIg==
   dependencies:
     "@vue/reactivity" "~3.1.1"
 
